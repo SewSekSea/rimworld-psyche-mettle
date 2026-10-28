@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <InteractionDef>
+    <defName>MT_SitWith</defName>
+    <label>sit with</label>
+    <workerClass>Mettle.InteractionWorker_SitWith</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/DeepTalk</symbol>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef] [sat] [RECIPIENT_nameDef] [said].</li>
+
+        <li>sat(p=3)->sat with</li>
+        <li>sat->found</li>
+        <li>sat->stayed a while with</li>
+        <li>sat->said nothing much to</li>
+        <li>sat->went and sat down next to</li>
+
+        <li>said->and said they had been there too</li>
+        <li>said->and did not tell them it would be fine</li>
+        <li>said->and talked about something else entirely</li>
+        <li>said->and told them how long it had taken</li>
+        <li>said->until they had said all of it</li>
+        <li>said->and said it does not stay like this</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+
+</Defs>

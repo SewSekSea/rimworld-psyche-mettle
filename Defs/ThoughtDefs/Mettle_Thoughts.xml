@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--
+    One ordeal survived. Small, quiet, and it fades. The point is not the mood, it is that the
+    ledger counted it: enough of these and the colonist changes.
+  -->
+  <ThoughtDef>
+    <defName>MT_CameThrough</defName>
+    <durationDays>10</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>came through it</label>
+        <description>That was bad, and it is over, and I am still here. I did not think I would be.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- The moment it lands. Rare, so it is allowed to be large. -->
+  <ThoughtDef>
+    <defName>MT_Changed</defName>
+    <durationDays>25</durationDays>
+    <stackLimit>2</stackLimit>
+    <stackedEffectMultiplier>0.6</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>not who I was</label>
+        <description>Something in me settled. I would not have chosen any of it, and I would not give back what it left me.</description>
+        <baseMoodEffect>14</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--
+    Someone who has been through it sitting with someone who currently is.
+    This is the social half: growth is not only a private benefit, it makes them useful to others.
+  -->
+  <ThoughtDef>
+    <defName>MT_SatWithMe</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>20</durationDays>
+    <stackLimit>6</stackLimit>
+    <stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>knew what to say</label>
+        <baseOpinionOffset>22</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>MT_SatWithMeMood</thoughtToMake>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MT_SatWithMeMood</defName>
+    <durationDays>4</durationDays>
+    <stackLimit>4</stackLimit>
+    <stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>somebody who understood</label>
+        <description>They did not tell me it would be fine. They have been where I am, and they said so, and it helped more than being told it would be fine.</description>
+        <baseMoodEffect>9</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

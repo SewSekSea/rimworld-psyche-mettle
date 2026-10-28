@@ -1,0 +1,86 @@
+{
+  "name": "Mettle",
+  "packageId": "mettle.growth",
+  "assemblyName": "Mettle",
+  "repositoryName": "rimworld-psyche-mettle",
+  "workshopId": "3805546042",
+  "metadataVersions": [
+    "1.6",
+    "1.7"
+  ],
+  "originalSourceUnit": "Psyche Mods/Mettle",
+  "sourceSnapshotUtc": "2026-10-28T17:10:12.888Z",
+  "sourceFileFingerprints": [
+    {
+      "path": "About/About.xml",
+      "sha256": "EB78C794A241370E7B566A48CFE9B567481CB51D536F9E87592BB3BB1A93855C",
+      "bytes": 2891
+    },
+    {
+      "path": "About/Preview.png",
+      "sha256": "2DDBA8531100C9E9520C92C44425DE09E9D2E8CC5F824CBA270CB2FB52F0B589",
+      "bytes": 138865
+    },
+    {
+      "path": "About/PublishedFileId.txt",
+      "sha256": "19E5D7C8E368F79C0874BC0F8795303568EA73A45EC56269B3D537519AE0D041",
+      "bytes": 10
+    },
+    {
+      "path": "Defs/InteractionDefs/Mettle_Interactions.xml",
+      "sha256": "A6E5721E2D1557E3A89519D2A667A01DA6FF17694C3168D08A52CCC1FD261BF1",
+      "bytes": 1004
+    },
+    {
+      "path": "Defs/ThoughtDefs/Mettle_Thoughts.xml",
+      "sha256": "181A552C5A8159E72DDA74A61025586BB41EEFCA66480289A61372C9970DDBBA",
+      "bytes": 2398
+    },
+    {
+      "path": "Defs/TraitDefs/Mettle_Trait.xml",
+      "sha256": "CE706193BB3896175D3F82C1F7AED116F5B77CDD496245923074B12CEB592211",
+      "bytes": 2218
+    },
+    {
+      "path": "Source/Mettle/Bridges.cs",
+      "sha256": "49DAED901595D382E0A3D5D7A3366F0C4A9E75A408A5EE587CF1320C4B3D0F40",
+      "bytes": 2351
+    },
+    {
+      "path": "Source/Mettle/HarmonyPatches.cs",
+      "sha256": "1DC05A05F9833B0C144227080A4E395CBD5B7D084F25A6B7DCD5B9B16A3926EE",
+      "bytes": 3863
+    },
+    {
+      "path": "Source/Mettle/Mettle.csproj",
+      "sha256": "AFF898B70E54D4C71CDD83EE75716E1E9207786262E767A3CA00D99464FC4080",
+      "bytes": 1627
+    },
+    {
+      "path": "Source/Mettle/MettleCore.cs",
+      "sha256": "9CD61A92824A8147145877C0D22FFB55A8F15F9B18E14D84233B5A2D0BC98849",
+      "bytes": 5476
+    },
+    {
+      "path": "Source/Mettle/Ordeals.cs",
+      "sha256": "BEF354029600788C38EE99D9EF7F7AB3DAAE63A8BEB655F80E181DEC50BFAC64",
+      "bytes": 7536
+    },
+    {
+      "path": "Source/Mettle/Settings.cs",
+      "sha256": "9DE4517220E259BA5166FD671259799BAC1BB129E65C2A72CC9FF70D2201542A",
+      "bytes": 3836
+    },
+    {
+      "path": "Source/Mettle/Workers.cs",
+      "sha256": "2AA71F8ED0503EED58C3156753F239B2E1DE6BD655B55DB420F07D3A827410B3",
+      "bytes": 2019
+    }
+  ],
+  "stagedProjectAdjustments": [],
+  "build16": "NOT_RUN_THIS_PASS",
+  "build17": "COMPILED_AGAINST_LOCAL_1.7_API",
+  "nativePlaytest": "NOT_RUN_THIS_PUBLICATION_PASS",
+  "gameplaySourceModified": false,
+  "compiled17SHA256": "B091DB466A9B9830833AA6EF365931707C17D0EF58ABC774AFA9A98EFA2DDEE9"
+}

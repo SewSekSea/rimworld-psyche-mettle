@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--
+    Not rolled at generation. This is the only trait in the set that a colonist cannot start with:
+    it is granted by this mod, to a colonist who has come through something and come out steadier.
+    Kept out of character generation by code, not by numbers. Setting every degree to a commonality
+    of zero looks like it should work and does not: RimWorld picks a degree by weighted random, an
+    all-zero weighting returns nothing, and the generator then crashes on it. The degrees therefore
+    carry ordinary numbers and HarmonyPatches forces this trait's selection weight to zero instead.
+  -->
+  <TraitDef>
+    <defName>MT_Weathered</defName>
+    <degreeDatas>
+      <li>
+        <label>steadied</label>
+        <degree>1</degree>
+        <commonality>1</commonality>
+        <description>{PAWN_nameDef} has been through something and come out the other side of it. {PAWN_pronoun} is not untouched — {PAWN_pronoun} is harder to knock over than {PAWN_pronoun} was.\n\nWhen somebody else is struggling, {PAWN_pronoun} is better than most at sitting with them, because {PAWN_pronoun} knows what it is.</description>
+        <statOffsets>
+          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+          <SocialImpact>0.05</SocialImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <label>weathered</label>
+        <degree>2</degree>
+        <commonality>1</commonality>
+        <description>{PAWN_nameDef} has come through more than most people are asked to, and is still here, and is still {PAWN_objective}self.\n\nVery little rattles {PAWN_objective} now. Not because {PAWN_pronoun} stopped feeling things — {PAWN_pronoun} feels them and carries on. The others go to {PAWN_objective} when it is bad, and {PAWN_pronoun} is the reason some of them are still standing.</description>
+        <statOffsets>
+          <MentalBreakThreshold>-0.09</MentalBreakThreshold>
+          <SocialImpact>0.12</SocialImpact>
+          <PsychicSensitivity>-0.05</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>Psychopath</li>
+      <li>Wimp</li>
+    </conflictingTraits>
+  </TraitDef>
+
+</Defs>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Mettle</name>
+  <author>T&amp;B Modding</author>
+  <packageId>mettle.growth</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+  <description>Some people come through it and are more than they were.
+
+Everything that happens to a RimWorld colonist makes them worse or makes no difference. They are wounded, they recover, and they are exactly who they were before. They lose their mind, they get it back, and nothing about them has changed.
+
+This mod adds the other half. A colonist who comes through something hard is counted as having come through it, and enough of that changes them permanently.
+
+Ordeals
+Only survivals count, never sufferings. Coming out of a mental breakdown. Being carried off the field half dead and getting up again days later. Something they are still in the middle of counts for nothing, because they have not come through it yet.
+
+Weathered
+Two strengths, and neither can be rolled at character generation. They are only ever earned.
+
+- Steadied. Harder to knock over than they were. Better than most at sitting with someone who is struggling.
+- Weathered. Very little rattles them now, and roughly one breakdown in four simply does not land. Not because they stopped feeling things.
+
+Nobody grows alone
+A colonist only comes out of something changed for the better if somebody was in their corner: a partner, family, or another colonist who thinks well of them. Endure it with nobody and you simply endure it. The ledger keeps counting, and if things change for them later, so can this.
+
+Sitting with people
+A colonist who has been through it will go and sit with someone who currently is. What helps is not kindness, it is recognition. They are not telling anyone it will be fine. They are the evidence that it can be.
+
+Who cannot grow
+A Psychopath does not. A full Sociopath does not. A full Narcissist does not, because growth means accepting you were not equal to something. This is not a penalty aimed at those traits, it is the same fact from the other side: what they are missing is exactly what this needs.
+
+Settings
+Options - Mod settings - Mettle. Adjust how many ordeals it takes, how often they sit with people, and what counts as struggling. "Nobody grows alone" can be switched off.
+
+Requires Harmony. Safe to add to an existing save. RimWorld 1.6, no DLC needed.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld</li>
+    <li>sociopath.trait</li>
+    <li>narcissist.trait</li>
+    <li>grief.mourning</li>
+    <li>solace.comfort</li>
+    <li>squad.ptsd</li>
+  </loadAfter>
+</ModMetaData>
